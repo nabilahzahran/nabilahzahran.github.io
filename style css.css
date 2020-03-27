@@ -1,0 +1,67 @@
+  
+
+       h1{
+        	background-color: white;
+            color: LightSeaGreen;
+            font-family: sans-serif;
+            text-align: center;
+            width: 45%;
+            margin:auto;
+            padding: 20px;}
+        
+      
+            
+     
+        body{  background-image: url('2.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+
+            font-size:large;} 
+
+         
+h4{
+	background-color: darkseagreen;
+  width: 400px;
+  border: 20px palevioletred;
+  padding: 20px;
+  margin: 25% center;
+  text-align:center;
+  text-decoration: underline;
+  text-decoration-color: aqua;
+font-family: arial
+}
+
+
+h4 {<p> class="dotted">A dotted outline</p> }
+
+img {
+   width: 300px;
+   height: 400px;
+   border-radius: 60%;
+}
+
+  h5{
+  width: 45%;
+  height: 25px;
+  margin: 20px;
+  background: lightcoral;
+  position: relative;
+  animation: myfirst 5s 5;
+  animation-direction: alternate;
+  text-align: center;
+  alignment-baseline: center;
+  padding:35px;
+  font-size: 200%
+
+}
+
+@keyframes myfirst {
+  0%   {background: crimson; left: 0px; right: 0px;}
+  25%  {background: cornflowerblue; left: 200px; right: 0px;}
+  50%  {background: lightpink; left: 200px; right: 200px;}
+  75%  {background: salmon; left: 0px; right: 200px;}
+  100% {background: mediumpurple; left: 0px; right: 0px;}
+}
+
+
+
